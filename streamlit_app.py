@@ -34,6 +34,6 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - what does this do? This line creates a dataframe table from the json values
 streamlit.dataframe(fruityvice_normalized)
 
-streamlit.header("The fruit load list contains:")
+streamlit.header('The fruit load list contains:')
 streamlit.dataframe(my_data_rows)
 
